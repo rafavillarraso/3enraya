@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilos.css">
+    <script src="principal.js"></script>
+    <title>3 en raya</title>
+</head>
+<body>
+    <div><h2>3 en Raya</h2></div>
+    <div style="margin-bottom: 30px;">
+    <table class="contenedor">
+        <tr>
+            <th><button class="casilla" id="1" onclick="tirada(1)"></button></th>
+            <th><button class="casilla" id="2" onclick="tirada(2)"></button></th>
+            <th><button class="casilla" id="3" onclick="tirada(3)"></button></th>
+        </tr>
+        <tr>
+            <th><button class="casilla" id="4" onclick="tirada(4)"></button></th>
+            <th><button class="casilla" id="5" onclick="tirada(5)"></button></th>
+            <th><button class="casilla" id="6" onclick="tirada(6)"></button></th>
+        </tr>
+        <tr>
+            <th><button class="casilla" id="7" onclick="tirada(7)"></button></th>
+            <th><button class="casilla" id="8" onclick="tirada(8)"></button></th>
+            <th><button class="casilla" id="9" onclick="tirada(9)"></button></th>
+        </tr>
+    </table>
+    </div>
+    <section class="contenedor2">
+        <div><span style="margin-right: 10px;">Jugador</span><span id="marcador1"><input type="text"></span></div>
+        <div style="margin-top: 10px;"><span style="margin-right: 10px;">Máquina</span><span id="marcador1"><input type="text"></span></div>
+        <button onclick="limpiar();">Clear</button>
+    </section>
+</body>
+</html>
